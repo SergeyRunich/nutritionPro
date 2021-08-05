@@ -1,0 +1,52 @@
+.ordersContent {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+thead {
+  position: sticky;
+  top: 80px;
+  z-index: 1000;
+}
+table {
+  position: relative;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+table th,
+table td {
+  padding: 10px 8px;
+  text-align: center;
+}
+table thead tr {
+  background-color: #3dc383;
+  vertical-align: baseline;
+}
+table thead tr span {
+  color: #fff;
+}
+table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+table tbody tr:last-of-type {
+  border-bottom: 4px solid #3dc383;
+}
+table input,
+table select {
+  position: relative;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  padding: 3px 5px;
+  border-radius: 4px;
+  margin-top: 5px;
+}
